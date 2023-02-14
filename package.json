@@ -1,1 +1,57 @@
-
+{
+  "name": "@lentix/monorepo-workspace",
+  "version": "0.0.0",
+  "description": "Monorepo Workspaces",
+  "main": "dist/index.js",
+  "workspaces": [
+    "workspaces/apps/web/docs/*",
+    "workspaces/apps/web/*",
+    "workspaces/scripts/*",
+    "workspaces/packages/local/*",
+    "workspaces/packages/shared/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "turbo:dev": "turbo run dev --parallel",
+    "lint": "turbo run lint && eslint **/*.ts --cache",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "format-check": "prettier --check **/*.ts"
+  },
+  "keywords": [
+    "monorepo",
+    "workspace"
+  ],
+  "author": "Lentix",
+  "license": "MIT",
+  "homepage": "",
+  
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "@lentix/esconfigs": "workspace:*",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.4",
+    "turbo": "latest"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "env-cmd": "^10.1.0",
+    "envalid": "^7.3.1"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pnpm lint",
+      "pre-push": "pnpm test"
+    }
+   },
+  "packageManager": "pnpm@7.22.0"
+}

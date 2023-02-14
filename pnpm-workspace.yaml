@@ -1,0 +1,13 @@
+packages:
+- "workspaces/*"
+- "workspaces/apps/*"
+- "workspaces/apps/web/*"
+- "workspaces/apps/web/docs/*"
+- "workspaces/packages/local/*"
+- "workspaces/packages/shared/*"
+- "workspaces/packages/shared/templates-base/*"
+- "workspaces/packages/shared/tsconfig-base/*"
+- "workspaces/packages/shared/esconfig-base/"
+- "workspaces/packages/shared/web-base/*"
+- "workspaces/scripts/*"
+- "workspaces/bin/*"
