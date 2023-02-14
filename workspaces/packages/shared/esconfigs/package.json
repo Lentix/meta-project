@@ -1,0 +1,23 @@
+{
+  "name": "@lentix/esconfigs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "*.md",
+    "LICENSE",
+    "src"
+  ],
+  "scripts": {
+    "preinstall": "",
+    "prepare": "",
+    "build": "pnpm run build",
+    "test": "pnpm run jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@lentix/tsconfigs": "workspace"
+  }
+}
