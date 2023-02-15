@@ -1,3 +1,5 @@
+# Lentix - Meta Open Source Project
+
 ## Getting started
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
@@ -49,15 +51,20 @@ Every project is different, so consider which of these sections apply to yours. 
 
 --------------------------------------
 
-## Lentix - Meta Open Source Project
+# Lentix - Meta Open Source Project
 
-## Description
+--------------------------------------
+
 Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+
+--------------
 
 [lentix]: https://www.lentix.com/
 
 [![Circle CI](https://circleci.com/gh/lentix/meta-project.svg?style=svg)](https://circleci.com/gh/lentix/meta-project)
 [![What's deployed on dev,stage,prod?](https://img.shields.io/badge/whatsdeployed-dev,stage,prod-green.svg)](https://whatsdeployed.io/s/RuO/lentix/meta-project)
+
+----------
 
 ## Visuals
 Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
@@ -83,6 +90,28 @@ You can also document commands to lint the code or run tests. These steps help t
 
 ## Authors and acknowledgment
 Show your appreciation to those who have contributed to the project.
+Contributing
+------------
+
+Patches are welcome! Feel free to fork and contribute to [this project][gh-bedrock] on
+GitHub. If you find a problem and wish to report it, please [file
+a bug][github-issue].
+
+Looking for a good first bug to work on? Take a look at our [contributing doc][contributing]
+to get started.
+
+[gh-lentix]: https://github.com/lentix/meta-project
+[github-issue]: https://github.com/lentix/meta-project/issues/new?template=bug_report.md
+[contributing]: https://github.com/lentix/meta-project/blob/main/.github/CONTRIBUTING.md
+
+Code of Conduct
+---------------
+
+This repository is governed by Lentix [Community Participation Guidelines][participation]
+and [Developer Etiquette Guidelines][etiquette].
+
+[participation]: https://github.com/mozilla/lentix/blob/main/CODE_OF_CONDUCT.md
+[etiquette]: https://bugtix.lentix.org/page.cgi?id=etiquette.html
 
 ## License
 
