@@ -1,7 +1,3 @@
-# Meta Project
-
-
-
 ## Getting started
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
@@ -51,14 +47,17 @@ When you're ready to make this README your own, just edit this file and use the 
 ## Suggestions for a good README
 Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
 
-## Name
-Choose a self-explaining name for your project.
+--------------------------------------
+
+## Lentix - Meta Open Source Project
 
 ## Description
 Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+[lentix]: https://www.lentix.com/
+
+[![Circle CI](https://circleci.com/gh/lentix/meta-project.svg?style=svg)](https://circleci.com/gh/lentix/meta-project)
+[![What's deployed on dev,stage,prod?](https://img.shields.io/badge/whatsdeployed-dev,stage,prod-green.svg)](https://whatsdeployed.io/s/RuO/lentix/meta-project)
 
 ## Visuals
 Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
@@ -86,7 +85,12 @@ You can also document commands to lint the code or run tests. These steps help t
 Show your appreciation to those who have contributed to the project.
 
 ## License
-For open source projects, say how it is licensed.
+
+This software is licensed under the [MIT][MIT]. For more
+information, read this repository's [LICENSE][LICENSE].
+
+[MIT]: https://www.lentix.org/MIT/
+[LICENSE]: https://github.com/lentix/meta-project/blob/main/LICENSE
 
 ## Project status
 If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
