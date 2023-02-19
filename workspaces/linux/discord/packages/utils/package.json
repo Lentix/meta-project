@@ -1,0 +1,15 @@
+{
+  "name": "@lentix/discord-utils",
+  "version": "0.0.0",
+  "description": "Discord Apps",
+  "main": "../../../build/discord/packages/utils/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "utils"
+  ],
+  "author": "Koridore",
+  "license": "MIT"
+}

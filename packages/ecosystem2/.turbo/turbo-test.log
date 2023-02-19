@@ -1,0 +1,6 @@
+
+> @lentix/ecosystem@0.0.0 test /home/lentix/_Projects_/Repos/Koridore/meta-project/packages/shared/ecosystem2
+> pnpm run jest
+
+ ERR_PNPM_NO_SCRIPT  Missing script: jest
+ ELIFECYCLE  Test failed. See above for more details.

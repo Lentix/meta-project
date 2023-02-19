@@ -1,0 +1,12 @@
+{
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Discord Theme (Dark)",
+    "git.autofetch": true,
+    "editor.minimap.renderCharacters": false,
+    "files.autoSave": "afterDelay",
+    "makefile.launchConfigurations": [
+        "makefile.makefilePath",
+        "makefile.buildLog"
+    ],
+    "docker.commands.attach": "${containerCommand} exec -it ${containerId} ${shellCommand}"
+}

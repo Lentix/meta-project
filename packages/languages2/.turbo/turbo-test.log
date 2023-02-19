@@ -1,0 +1,5 @@
+
+> @lentix/languages@0.0.0 test /home/lentix/_Projects_/Repos/Koridore/meta-project/packages/shared/languages2
+> pnpm run jest
+
+ ELIFECYCLE  Test failed. See above for more details.

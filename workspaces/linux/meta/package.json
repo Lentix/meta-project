@@ -1,0 +1,45 @@
+{
+  "name": "@lentix/meta-workspace",
+  "version": "0.0.0",
+  "description": "Meta Workspace",
+  "private": true,
+  "main": "../../../../build/lentix/workspaces/meta/index.js",
+  "files": [
+    "*.md",
+    "LICENSE",
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "tsc --watch",
+    "prepare": "tsc",
+    "build": "pnpm run build",
+    "prepublishOnly": "pnpm run build",
+    "coverage": "jest --coverage",
+    "lint": "tsc && prettier --list-different --write src tests",
+    "test": "pnpm run jest"
+  },
+  "keywords": [],
+  "author": "Lentix",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "latest",
+    "meta": "latest",
+    "prettier": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {},
+  "prettier": {
+    "endOfLine": "lf",
+    "printWidth": 80,
+    "semi": false,
+    "tabWidth": 2,
+    "trailingComma": "es5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint",
+      "pre-push": "yarn test"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@lentix/discord-types",
+  "version": "0.0.0",
+  "description": "Discord Apps",
+  "main": "../../../build/discord/packages/types/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "types"
+  ],
+  "author": "Koridore",
+  "license": "MIT"
+}
